@@ -12,6 +12,5 @@ $(document).ready(function(){
 
       selection.removeAllRanges();
       document.body.removeChild(node);
-      console.log("lol")
   });
 });
