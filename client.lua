@@ -14,8 +14,7 @@ RegisterCommand('tpc', function(source, args, rawCommand)
 	end
 
 	local x,y,z = 0,0,0
-	if coords[1] ~= nil then
-		x = coords[1] end
+	if coords[1] ~= nil then x = coords[1] end
 	if coords[2] ~= nil then y = coords[2] end
 	if coords[3] ~= nil then z = coords[3] end
 
